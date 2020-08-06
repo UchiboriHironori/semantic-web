@@ -1,0 +1,160 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "hironori"@ja ;
+
+      cc:license <http://creativecommons.org/publicdomain/zero/1.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0>
+      rdf:type rdf:Property ;
+      rdfs:label "検挙件数"@ja .
+<http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87>
+      rdf:type rdf:Property ;
+      rdfs:label "検挙率"@ja .
+<http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1>
+      rdf:type rdf:Property ;
+      rdfs:label "検挙人員"@ja .
+
+<http://linkdata.org/resource/rdf1s8436i#murder>
+      <http://www.w3.org/2000/01/rdf-schema#label> "murder"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "殺人"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "437"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "96.7"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "402"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#robbery>
+      <http://www.w3.org/2000/01/rdf-schema#label> "robbery"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "強盗"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "650"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "88.2"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "788"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#arson>
+      <http://www.w3.org/2000/01/rdf-schema#label> "arson"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "放火"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "342"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "86.1"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "275"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#rape>
+      <http://www.w3.org/2000/01/rdf-schema#label> "rape"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "強制性交等"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "594"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "93.8"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "536"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#assembling_with_dangerous_weapons>
+      <http://www.w3.org/2000/01/rdf-schema#label> "assembling_with_dangerous_weapons"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "凶器準備集合"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "33.3"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "1"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#violence>
+      <http://www.w3.org/2000/01/rdf-schema#label> "violence"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "暴行"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "11801"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "87.6"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "12002"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#injury>
+      <http://www.w3.org/2000/01/rdf-schema#label> "injury"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "傷害"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "8170"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "87.4"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "8973"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#intimidiation>
+      <http://www.w3.org/2000/01/rdf-schema#label> "intimidiation"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "脅迫"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "1562"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "85.3"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "1362"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#extortion>
+      <http://www.w3.org/2000/01/rdf-schema#label> "extortion"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "恐喝"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "580"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "80.8"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "657"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#trespass>
+      <http://www.w3.org/2000/01/rdf-schema#label> "trespass"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "侵入盗"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "16999"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "69.8"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "2950"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#vehicle_theft>
+      <http://www.w3.org/2000/01/rdf-schema#label> "vehicle_theft"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "乗り物盗"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "6299"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "9.5"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "3203"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#larceny_on_non_burglary>
+      <http://www.w3.org/2000/01/rdf-schema#label> "larceny_on_non_burglary"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "非侵入盗"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "62071"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "51.4"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "38058"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#fraud>
+      <http://www.w3.org/2000/01/rdf-schema#label> "fraud"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "詐欺"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "7132"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "48.8"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "3889"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#embezzlement>
+      <http://www.w3.org/2000/01/rdf-schema#label> "embezzlement"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "横領"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "571"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "79.7"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "504"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#forgery>
+      <http://www.w3.org/2000/01/rdf-schema#label> "forgery"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "偽造"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "688"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "70.4"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "448"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#corruption>
+      <http://www.w3.org/2000/01/rdf-schema#label> "corruption"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "汚職"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "18"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "85.7"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "14"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#influence_peddling_charge>
+      <http://www.w3.org/2000/01/rdf-schema#label> "influence_peddling_charge"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "斡旋利得処罰法"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "0"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "0"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#breach_of_trust>
+      <http://www.w3.org/2000/01/rdf-schema#label> "breach_of_trust"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "背任"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "25"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "119"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "27"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#gambling>
+      <http://www.w3.org/2000/01/rdf-schema#label> "gambling"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "賭博"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "53"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "91.4"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "236"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8436i#indecent_act>
+      <http://www.w3.org/2000/01/rdf-schema#label> "indecent_act"@ja ;
+      <https://w3id.org/GDPRtEXT#CriminalData> "猥褻"@ja ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BB%B6%E6%95%B0> "2773"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E7%8E%87> "84.6"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8436i#%E6%A4%9C%E6%8C%99%E4%BA%BA%E5%93%A1> "2046"^^xsd:int .
+
