@@ -1,0 +1,100 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "hironori"@ja ;
+
+      cc:license <http://creativecommons.org/publicdomain/zero/1.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s8434i#%E4%BF%9D%E5%81%A5%E6%89%80>
+      rdf:type rdf:Property ;
+      rdfs:label "保健所"@ja .
+<http://linkdata.org/property/rdf1s8434i#%E5%85%A5%E9%99%A2%E8%80%85%E6%95%B0>
+      rdf:type rdf:Property ;
+      rdfs:label "入院者数"@ja .
+<http://linkdata.org/property/rdf1s8434i#%E7%84%A1%E7%97%87%E7%8A%B6%E7%97%85%E5%8E%9F%E4%BD%93%E4%BF%9D%E6%9C%89%E6%95%B0>
+      rdf:type rdf:Property ;
+      rdfs:label "無症状病原体保有数"@ja .
+<http://linkdata.org/property/rdf1s8434i#%E9%80%80%E9%99%A2%E8%80%85%E6%95%B0>
+      rdf:type rdf:Property ;
+      rdfs:label "退院者数"@ja .
+
+<http://linkdata.org/resource/rdf1s8434i#hokushin>
+      <http://www.w3.org/2000/01/rdf-schema#label> "hokushin"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E4%BF%9D%E5%81%A5%E6%89%80> "北信保健所管内"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E5%85%A5%E9%99%A2%E8%80%85%E6%95%B0> "9"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E7%84%A1%E7%97%87%E7%8A%B6%E7%97%85%E5%8E%9F%E4%BD%93%E4%BF%9D%E6%9C%89%E6%95%B0> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E9%80%80%E9%99%A2%E8%80%85%E6%95%B0> "8"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8434i#nagano>
+      <http://www.w3.org/2000/01/rdf-schema#label> "nagano"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E4%BF%9D%E5%81%A5%E6%89%80> "長野保健所管内"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E5%85%A5%E9%99%A2%E8%80%85%E6%95%B0> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E7%84%A1%E7%97%87%E7%8A%B6%E7%97%85%E5%8E%9F%E4%BD%93%E4%BF%9D%E6%9C%89%E6%95%B0> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E9%80%80%E9%99%A2%E8%80%85%E6%95%B0> "0"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8434i#naganocity>
+      <http://www.w3.org/2000/01/rdf-schema#label> "naganocity"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E4%BF%9D%E5%81%A5%E6%89%80> "長野市保健所管内"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E5%85%A5%E9%99%A2%E8%80%85%E6%95%B0> "4"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E7%84%A1%E7%97%87%E7%8A%B6%E7%97%85%E5%8E%9F%E4%BD%93%E4%BF%9D%E6%9C%89%E6%95%B0> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E9%80%80%E9%99%A2%E8%80%85%E6%95%B0> "19"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8434i#ueda>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ueda"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E4%BF%9D%E5%81%A5%E6%89%80> "上田保健所管内"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E5%85%A5%E9%99%A2%E8%80%85%E6%95%B0> "5"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E7%84%A1%E7%97%87%E7%8A%B6%E7%97%85%E5%8E%9F%E4%BD%93%E4%BF%9D%E6%9C%89%E6%95%B0> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E9%80%80%E9%99%A2%E8%80%85%E6%95%B0> "8"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8434i#saku>
+      <http://www.w3.org/2000/01/rdf-schema#label> "saku"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E4%BF%9D%E5%81%A5%E6%89%80> "佐久保健所管内"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E5%85%A5%E9%99%A2%E8%80%85%E6%95%B0> "4"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E7%84%A1%E7%97%87%E7%8A%B6%E7%97%85%E5%8E%9F%E4%BD%93%E4%BF%9D%E6%9C%89%E6%95%B0> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E9%80%80%E9%99%A2%E8%80%85%E6%95%B0> "2"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8434i#suwa>
+      <http://www.w3.org/2000/01/rdf-schema#label> "suwa"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E4%BF%9D%E5%81%A5%E6%89%80> "諏訪保健所管内"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E5%85%A5%E9%99%A2%E8%80%85%E6%95%B0> "2"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E7%84%A1%E7%97%87%E7%8A%B6%E7%97%85%E5%8E%9F%E4%BD%93%E4%BF%9D%E6%9C%89%E6%95%B0> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E9%80%80%E9%99%A2%E8%80%85%E6%95%B0> "12"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8434i#ina>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ina"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E4%BF%9D%E5%81%A5%E6%89%80> "伊那保健所管内"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E5%85%A5%E9%99%A2%E8%80%85%E6%95%B0> "3"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E7%84%A1%E7%97%87%E7%8A%B6%E7%97%85%E5%8E%9F%E4%BD%93%E4%BF%9D%E6%9C%89%E6%95%B0> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E9%80%80%E9%99%A2%E8%80%85%E6%95%B0> "10"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8434i#oomachi>
+      <http://www.w3.org/2000/01/rdf-schema#label> "oomachi"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E4%BF%9D%E5%81%A5%E6%89%80> "大町保健所管内"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E5%85%A5%E9%99%A2%E8%80%85%E6%95%B0> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E7%84%A1%E7%97%87%E7%8A%B6%E7%97%85%E5%8E%9F%E4%BD%93%E4%BF%9D%E6%9C%89%E6%95%B0> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E9%80%80%E9%99%A2%E8%80%85%E6%95%B0> "1"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8434i#matsumoto>
+      <http://www.w3.org/2000/01/rdf-schema#label> "matsumoto"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E4%BF%9D%E5%81%A5%E6%89%80> "松本保健所管内"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E5%85%A5%E9%99%A2%E8%80%85%E6%95%B0> "7"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E7%84%A1%E7%97%87%E7%8A%B6%E7%97%85%E5%8E%9F%E4%BD%93%E4%BF%9D%E6%9C%89%E6%95%B0> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E9%80%80%E9%99%A2%E8%80%85%E6%95%B0> "17"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8434i#kiso>
+      <http://www.w3.org/2000/01/rdf-schema#label> "kiso"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E4%BF%9D%E5%81%A5%E6%89%80> "木曽保健所管内"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E5%85%A5%E9%99%A2%E8%80%85%E6%95%B0> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E7%84%A1%E7%97%87%E7%8A%B6%E7%97%85%E5%8E%9F%E4%BD%93%E4%BF%9D%E6%9C%89%E6%95%B0> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E9%80%80%E9%99%A2%E8%80%85%E6%95%B0> "4"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s8434i#iida>
+      <http://www.w3.org/2000/01/rdf-schema#label> "iida"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E4%BF%9D%E5%81%A5%E6%89%80> "飯田保健所管内"@ja ;
+      <http://linkdata.org/property/rdf1s8434i#%E5%85%A5%E9%99%A2%E8%80%85%E6%95%B0> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E7%84%A1%E7%97%87%E7%8A%B6%E7%97%85%E5%8E%9F%E4%BD%93%E4%BF%9D%E6%9C%89%E6%95%B0> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8434i#%E9%80%80%E9%99%A2%E8%80%85%E6%95%B0> "6"^^xsd:int .
+
